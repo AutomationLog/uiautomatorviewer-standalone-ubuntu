@@ -5,6 +5,9 @@
 
 这个工程是[谷歌官方UIAutomatorViewer](https://android.googlesource.com/platform/tools/swt/+/refs/heads/android10-release/uiautomatorviewer/)改造而来，用来抓取UIAutomator控件的工具，支持独立运行，但因为其依赖于swt，所以需要在mac和windows下分别编译。
 
+### Release地址
+[下载](https://github.com/lyp82nlf/uiautomatorviewer-standalone-ubuntu/releases/tag/1.1)
+
 ### 打包
 mvn clean package
 
