@@ -27,7 +27,7 @@ public class DebugBridge {
     private static AndroidDebugBridge sDebugBridge;
 
     private static String getAdbLocation() {
-        if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+        if (System.getProperty("os.name").toLowerCase().contains("mac")||System.getProperty("os.name").toLowerCase().contains("linux")) {
             return System.getProperty("user.dir") + File.separator + "adb";
         }
         return System.getProperty("user.dir") + File.separator + "adb.exe";
