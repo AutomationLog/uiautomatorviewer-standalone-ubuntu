@@ -1,7 +1,7 @@
 ### 说明
 项目是从[这个大佬](https://github.com/cmlanche/uiautomatorviewer-standalone) 这里fork出来的，大佬没有适配ubuntu，所以我拉下来魔改了一下
 
-我的系统版本是**Ubuntu 18.04.5 LTS* 别的版本有问题可以自己适配一下
+我的系统版本是**Ubuntu 18.04.5 LTS** 别的版本有问题可以自己适配一下
 
 这个工程是[谷歌官方UIAutomatorViewer](https://android.googlesource.com/platform/tools/swt/+/refs/heads/android10-release/uiautomatorviewer/)改造而来，用来抓取UIAutomator控件的工具，支持独立运行，但因为其依赖于swt，所以需要在mac和windows下分别编译。
 
